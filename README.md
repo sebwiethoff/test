@@ -54,8 +54,11 @@ However it doesn't always make sense to release every good build to users. In pa
 
 So when can you say you're doing continuous delivery? I'd say it's when you could flip a switch to go to continuous deployment if you decided that was the best way to deliver value to your customers. In particular, if you can't release every good build to users, what does it mean to be "done" with a story? I think at least the following conditions must apply:
 
-    You have run your entire test suite against the build containing the story. This validates that the story is delivering the expected business value, and that no regressions have been introduced in the process of developing it. In order to be efficient, that means having comprehensive automated tests at the unit, component and acceptance level.
-    The story has been demonstrated to customers from a production-like environment. Production-like means identical with production, within the bounds of reason. Even if you're deploying to an enormous cluster, you can use a technique like blue-green deployments to run a different version of your app in parallel on the production environment without affecting users.
-    There are no obstacles to deploying to production. In other words, you could deploy the build to users using a fully automated process at the push of a button if you decided to. In particular, that means you've also tested it fulfills its cross-functional characteristics such as capacity, availability and security. If you're using an SOA or you have dependencies between your application and other systems, it means ensuring there are no integration problems.
+
+You have run your entire test suite against the build containing the story. This validates that the story is delivering the expected business value, and that no regressions have been introduced in the process of developing it. In order to be efficient, that means having comprehensive automated tests at the unit, component and acceptance level.
+    
+The story has been demonstrated to customers from a production-like environment. Production-like means identical with production, within the bounds of reason. Even if you're deploying to an enormous cluster, you can use a technique like blue-green deployments to run a different version of your app in parallel on the production environment without affecting users.
+
+There are no obstacles to deploying to production. In other words, you could deploy the build to users using a fully automated process at the push of a button if you decided to. In particular, that means you've also tested it fulfills its cross-functional characteristics such as capacity, availability and security. If you're using an SOA or you have dependencies between your application and other systems, it means ensuring there are no integration problems.
 
 
