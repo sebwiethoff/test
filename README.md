@@ -42,10 +42,5 @@ But its role in continuous deployment is much more important. This is the place 
 
 3. 
 
+# Continous Delivery vs. Continous Deployment
 
-
-
-
-
-
-3. 
