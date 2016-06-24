@@ -62,3 +62,5 @@ The story has been demonstrated to customers from a production-like environment.
 There are no obstacles to deploying to production. In other words, you could deploy the build to users using a fully automated process at the push of a button if you decided to. In particular, that means you've also tested it fulfills its cross-functional characteristics such as capacity, availability and security. If you're using an SOA or you have dependencies between your application and other systems, it means ensuring there are no integration problems.
 
 
+# Continuous Delivery vs. Continuous Integration
+
